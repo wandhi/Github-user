@@ -1,0 +1,59 @@
+.container {
+  max-width: 460px !important; /* Contoh lebar maksimum */
+  margin: 0 auto;
+  padding: 20px;
+  text-decoration: none; /* Menghilangkan underline */
+}
+
+/* Media query untuk tampilan mobile */
+@media (max-width: 367px) {
+  /* Anda dapat menambahkan atau mengganti aturan gaya mobile di bawah ini */
+  .container {
+    max-width: 100%; /* Lebar maksimum 100% pada tampilan mobile */
+    padding: 10px; /* Padding yang lebih kecil pada tampilan mobile */
+  }
+  /* Aturan gaya tambahan untuk tampilan mobile */
+}
+
+.App {
+  text-align: center;
+  text-decoration: none !important; /* Menghilangkan underline */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
